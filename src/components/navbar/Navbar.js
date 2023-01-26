@@ -9,7 +9,7 @@ import "./Navbar.css";
  export const Navbar = () => {
   return (
        <div className="navbar">
-           <Link to="/home"> BiJewelry </Link>
+           <Link to="/"> BiJewelry </Link>
            <div className="links">
            <Link to="/shop"> Shop </Link>
            <Link to="/cart">

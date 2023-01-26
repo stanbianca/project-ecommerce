@@ -8,6 +8,8 @@ import { ShopContextProvider } from './context/Shop-context';
 import { WishlistContextProvider } from './context/Wishlist-context';
 import { Home } from "./pages/Home/Home";
 import { Footer } from "./components/footer/Footer"
+import { Product } from "./pages/product/Product"
+import "./index.css";
 
 
 
@@ -24,6 +26,7 @@ function App() {
          <Route path="/shop" element={<Shop/>}/>
          <Route path="/cart"  element={<Cart/>}/>
          <Route path="/wishlist" element={<Wishlist/>} />
+         <Route path="/product" element={<Product/>} />
          <Route path="/" element={<Home/>}/>
        </Routes>
      </Router>

@@ -25,7 +25,7 @@ import { Product } from "./Product";
           />
         <div className="products">
          {products.map((product, idx) => (
-           <Product key={idx} data={product} />
+             <Product key={idx} data={product} />
          ))}
       </div>
     </div>
